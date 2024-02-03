@@ -4,7 +4,7 @@
 ## Steps 
 
 
-- `setup git repo`
-1. New environment
-2. setup.py
-3. requirements.txt
+1. `setup git repo`
+    - `New environment`
+    - `setup.py`
+    - `requiremets.txt`
