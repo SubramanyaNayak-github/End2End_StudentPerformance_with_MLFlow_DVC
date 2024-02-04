@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
-logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
+logging_str = "[%(asctime)s]  %(levelname)s: %(module)s: %(message)s"
 
 log_dir = 'logs'
 

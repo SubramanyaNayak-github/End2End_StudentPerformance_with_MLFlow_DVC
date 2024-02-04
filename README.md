@@ -8,3 +8,9 @@
     - `New environment`
     - `setup.py`
     - `requiremets.txt`
+2. `Logging And Exceptions Handler`
+    - `Project Folder`
+    - `ExceptionHandler`
+    - `LoggingHandler`
+    - `Utils- common`
+
