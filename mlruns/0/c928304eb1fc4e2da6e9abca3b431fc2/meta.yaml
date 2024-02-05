@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hitam/Downloads/End2End_StudentPerformance_with_MLFlow_DVC/mlruns/0/c928304eb1fc4e2da6e9abca3b431fc2/artifacts
+end_time: 1707127957066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c928304eb1fc4e2da6e9abca3b431fc2
+run_name: hilarious-doe-519
+run_uuid: c928304eb1fc4e2da6e9abca3b431fc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707127810135
+status: 3
+tags: []
+user_id: hitam

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hitam/Downloads/End2End_StudentPerformance_with_MLFlow_DVC/mlruns/0/061fe25411c8443594808fcea36e03fa/artifacts
+end_time: 1707127749273
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 061fe25411c8443594808fcea36e03fa
+run_name: puzzled-sheep-435
+run_uuid: 061fe25411c8443594808fcea36e03fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707127749248
+status: 4
+tags: []
+user_id: hitam
