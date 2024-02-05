@@ -1,17 +1,16 @@
+import os
 import sys
 from dataclasses import dataclass
 
 import numpy as np 
 import pandas as pd
-from sklearn.compose import ColumnTransformer
-from sklearn.impute import SimpleImputer
-from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer  # Applies transformers to columns of an array or pandas DataFrame
+from sklearn.impute import SimpleImputer  # For imputing  eg missing values 
+from sklearn.pipeline import Pipeline   
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 from src.exception import CustomException
 from src.logger import logging
-import os
-
 from src.utils import *
 
 @dataclass
@@ -24,7 +23,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function si responsible for data trnasformation
+        This function is responsible for data trnasformation
         
         '''
         try:
