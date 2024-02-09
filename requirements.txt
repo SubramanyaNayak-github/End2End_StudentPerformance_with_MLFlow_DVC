@@ -2,7 +2,6 @@ pandas
 numpy
 mlflow
 seaborn
-json
 matplotlib
 scikit-learn
 catboost
