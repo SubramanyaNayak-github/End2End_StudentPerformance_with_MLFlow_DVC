@@ -39,3 +39,8 @@ MLFLOW_TRACKING_URI=https://dagshub.com/subramanyanayak3/End2End_StudentPerforma
 MLFLOW_TRACKING_USERNAME=subramanyanayak3 \
 MLFLOW_TRACKING_PASSWORD=b18ad68cf0c678f5f616a47081e6c4c129e4a844 \
 python script.py
+
+
+
+380675867318.dkr.ecr.eu-north-1.amazonaws.com/student
+
