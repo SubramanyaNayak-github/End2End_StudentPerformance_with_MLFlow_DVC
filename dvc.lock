@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/pipeline/stage1_data_ingestion.py
+    deps:
+    - path: notebooks/data/student.csv
+      hash: md5
+      md5: f7a3b96762c57dbff85d27aeb50d28fb
+      size: 72036
+    - path: src/pipeline/stage1_data_ingestion.py
+      hash: md5
+      md5: e58f980cab6a0a58a26e464c84ff6697
+      size: 332
+    outs:
+    - path: artifacts/raw_data.csv
+      hash: md5
+      md5: 2de70855bcd7dcd68014cf613d4dfae8
+      size: 56020
+    - path: artifacts/test.csv
+      hash: md5
+      md5: 72e75d9c768ca2550d09de5e4df5b893
+      size: 11356
+    - path: artifacts/train.csv
+      hash: md5
+      md5: 43aae043735f7eb3c1d698e5b34a8002
+      size: 44783
+  data_transformation:
+    cmd: python src/pipeline/stage2_data_transformation.py
+    deps:
+    - path: artifacts/test.csv
+      hash: md5
+      md5: 72e75d9c768ca2550d09de5e4df5b893
+      size: 11356
+    - path: artifacts/train.csv
+      hash: md5
+      md5: 43aae043735f7eb3c1d698e5b34a8002
+      size: 44783
+    - path: src/pipeline/stage2_data_transformation.py
+      hash: md5
+      md5: a327feb7bcee03c45bb78e83addb7495
+      size: 535
+    outs:
+    - path: artifacts/proprocessor.pkl
+      hash: md5
+      md5: 11a3b6c0ba6159cc2e6b25a91be7e286
+      size: 3417

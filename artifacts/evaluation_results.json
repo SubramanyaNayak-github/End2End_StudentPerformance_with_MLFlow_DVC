@@ -1,0 +1,9 @@
+{
+    "r2_score": 0.8804320260603463,
+    "best_params": {
+        "fit_intercept": [
+            true,
+            false
+        ]
+    }
+}

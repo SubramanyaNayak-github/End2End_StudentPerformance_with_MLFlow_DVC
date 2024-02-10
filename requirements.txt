@@ -7,5 +7,5 @@ scikit-learn
 catboost
 xgboost
 Flask
-
+dvc
 -e .
